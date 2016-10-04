@@ -1,0 +1,128 @@
+body {
+  font-family: 'Baloo Tamma', cursive;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow-x: hidden; }
+  body header .nav ul {
+    list-style: none;
+    background-color: #3498db;
+    margin-left: 100px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 70px;
+    position: fixed; }
+    body header .nav ul li {
+      font-size: 1.5em;
+      line-height: 20px;
+      height: 20px;
+      padding-top: 20px;
+      display: inline-block;
+      margin-left: 0px; }
+      body header .nav ul li a {
+        font-size: 1.5em;
+        padding: 8px 54px;
+        text-decoration: none;
+        color: #fff;
+        display: block; }
+        body header .nav ul li a:hover {
+          background-color: #bdc3c7;
+          color: white; }
+  body .main {
+    padding-top: 70px; }
+    body .main ul {
+      list-style-type: none;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 25%;
+      margin-left: 75%;
+      background-color: #3498db;
+      position: fixed;
+      height: 100%;
+      overflow: auto; }
+      body .main ul li {
+        font-size: 1.5em; }
+        body .main ul li a {
+          text-align: center;
+          display: block;
+          font-size: 1.5em;
+          padding-top: 50px;
+          padding: 30px 54px;
+          text-decoration: none;
+          color: #fff; }
+          body .main ul li a:hover {
+            background-color: #bdc3c7;
+            color: white; }
+  body .content {
+    margin-right: 25%;
+    padding: 100px;
+    height: 100vh;
+    background-color: white; }
+    body .content .about {
+      min-height: 120px;
+      margin: 60px 20px;
+      padding: 10px;
+      background-color: #bdc3c7;
+      border-radius: 5px; }
+      body .content .about .circular {
+        width: 200px;
+        height: 200px;
+        border-radius: 150px;
+        margin-right: 50px;
+        float: left;
+        border-radius: 150px;
+        background: url("img/images.jpg") no-repeat; }
+      body .content .about .info {
+        display: block;
+        height: 200px;
+        margin: 10px;
+        text-align: justify; }
+    body .content .about1 {
+      min-height: 150px;
+      margin: 50px 20px;
+      padding: 10px;
+      background-color: #bdc3c7;
+      border-radius: 5px; }
+      body .content .about1 .circular1 {
+        width: 200px;
+        height: 200px;
+        border-radius: 150px;
+        margin-left: 50px;
+        float: right;
+        border-radius: 150px;
+        background: url("img/images2.jpg") repeat; }
+      body .content .about1 .info1 {
+        display: block;
+        height: 200px;
+        margin: 10px;
+        text-align: justify; }
+  body footer {
+    background-color: #bdc3c7;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    bottom: -330px;
+    height: 50px;
+    width: 100%; }
+    body footer .icon {
+      display: inline-block;
+      background-repeat: no-repeat;
+      background-image: url("img/sprite.png");
+      margin-right: 30px; }
+    body footer .icon-facebook2 {
+      width: 32px;
+      height: 32px;
+      background-position: 0 0; }
+    body footer .icon-instagram {
+      width: 32px;
+      height: 32px;
+      background-position: -36px 0; }
+    body footer .icon-vk {
+      width: 32px;
+      height: 32px;
+      background-position: -108px 0; }
+
+/*# sourceMappingURL=style.css.map */
